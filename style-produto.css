@@ -1,0 +1,145 @@
+header
+{
+	background: url("imagem/fundo-site3.jpg");
+	width: 1903px;
+	padding: 20px 0px;
+}
+
+.caixa
+{
+	position: relative;
+	width: 1800px;
+	margin: 0 auto;
+	/*border: solid;*/
+}
+
+.btlogin
+{
+	position: absolute;
+	display: inline;
+	left: 85%;
+	top: 39.2%;
+	padding: 15px 30px;
+	border: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	background: #111111;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+
+}
+
+.btlogin:hover
+{
+	color: #C78C19;
+}
+
+.btlogin:active
+{
+	border-color: #088C19;
+}
+
+nav
+{
+	position: absolute;
+	top: 45%;
+	right: 40%;
+	text-align: center;
+	/*border: solid;*/
+}
+
+nav li
+{
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+
+nav a
+{
+	text-transform: uppercase; /* Muda a forma do texto. Ex: Maiúsculo, Minúsculo */
+	color: #ffffff; /* Muda a cor do texto */
+	font-weight: bold; /* altera o peso ou intensidade da fonte. Ex: Negrito,Normal */
+	font-size: 20px; /* altera o tamanho da fonte */
+	text-decoration: none; /* remove decoração do texto */
+}
+
+nav a:hover
+{
+	color: #C78C19;
+}
+
+.produtos
+{
+	width: 1903px;
+	margin: 0 auto;
+	padding:  20px 0;
+	/*border: solid;*/
+	/*background: #ff0000;*/
+	overflow: hidden;
+}
+
+.produtos li
+{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: auto 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box; /* Espaçamento Lateral dentro do percentual, então os 30% que coloquei o width será fixo. */
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover
+{
+	border-color: #C78C19;
+}
+
+.produtos li:active
+{
+	border-color: #088C19;
+}
+
+.produtos li:hover h2
+{
+	font-size: 30px;
+}
+
+.produtos h2
+{
+	font-size: 33px;
+	font-weight: bold;
+}
+
+.produto-descricao
+{
+	font-size: 18px;
+}
+
+.produto-preco
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer
+{
+	text-align: center;
+	background: url("imagem/fundo-site3.jpg");
+	width: 1903px;
+	padding: 40px 0;
+	
+}
+
+.copyright
+{
+	color: #ffffff;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
